@@ -10,7 +10,6 @@ import { connect } from 'react-redux';
 
 
 // import './App.css';
-import s from './App.css'
 // import { nanoid } from 'nanoid';
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import { Bars } from  'react-loader-spinner'
