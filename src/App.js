@@ -67,7 +67,9 @@ const App = ({ filter, changeFilter }) => {
       {data && (
       <ContactLIst contacts={contactFilter(filter)} onDelete={deleteContact} />
       )}
-      {isFetching && <Bars heigth="100" width="100" color="grey" arialLabel="loading-indicator" className={s.spinner} />}
+      <div className='spinner'>
+       {isFetching && <Bars heigth="100" width="100" color="violet" arialLabel="loading-indicator" className='spinner' />}
+      </div>
       {error && <p>{error}</p>}
     </div>
   );

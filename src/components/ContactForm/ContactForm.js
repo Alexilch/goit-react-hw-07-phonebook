@@ -32,7 +32,7 @@ const ContactForm = ({ contacts }) => {
     event.preventDefault();
     
     if (contacts) {
-      console.log(contacts);
+      // console.log(contacts);
       if (contacts.some(contact => contact.name.includes(name))) {
         error(`${name} is already in contacts!`);
         resetForm();
